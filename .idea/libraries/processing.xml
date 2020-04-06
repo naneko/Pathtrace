@@ -1,0 +1,20 @@
+<component name="libraryTable">
+  <library name="processing">
+    <CLASSES>
+      <root url="file:///Applications/Processing.app/Contents/Java" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file:///Applications/Processing.app/Contents/Java/modes/java/generated" />
+      <root url="file:///Applications/Processing.app/Contents/Java/modes/java/libraries/dxf/src" />
+      <root url="file:///Applications/Processing.app/Contents/Java/modes/java/libraries/io/src" />
+      <root url="file:///Applications/Processing.app/Contents/Java/modes/java/libraries/net/src" />
+      <root url="file:///Applications/Processing.app/Contents/Java/modes/java/libraries/pdf/src" />
+      <root url="file:///Applications/Processing.app/Contents/Java/modes/java/libraries/serial/src" />
+      <root url="file:///Applications/Processing.app/Contents/Java/modes/java/libraries/svg/src" />
+      <root url="file:///Applications/Processing.app/Contents/Java/modes/java/src" />
+      <root url="file:///Applications/Processing.app/Contents/Java/tools/MovieMaker/src" />
+    </SOURCES>
+    <jarDirectory url="file:///Applications/Processing.app/Contents/Java" recursive="false" />
+  </library>
+</component>
