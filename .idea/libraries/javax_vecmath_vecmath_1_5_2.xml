@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="javax.vecmath:vecmath:1.5.2" type="repository">
+    <properties maven-id="javax.vecmath:vecmath:1.5.2" />
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/javax/vecmath/vecmath/1.5.2/vecmath-1.5.2.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/javax/vecmath/vecmath/1.5.2/vecmath-1.5.2-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES />
+  </library>
+</component>
