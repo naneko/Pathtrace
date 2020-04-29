@@ -1,4 +1,4 @@
-package Pathfinder;
+package Pathtrace;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -70,8 +70,12 @@ public class Path extends Sketch implements Iterable<Path> {
         logger.debug("Added new bound ({}, {}) -> ({}, {})", segment.x1, segment.y1, segment.x2, segment.y2);
     }
 
-    public void addBound(double x1, double x2, double y1, double y2) {
+    public void addBound(double x1, double y1, double x2, double y2) {
         bounds.add(new LineSeg(x1, y1, x2, y2));
+    }
+
+    public void clearBounds() {
+        bounds.clear();
     }
 
     public void addQuadBound(double x1, double y1, double x2, double y2, double x3, double y3, double x4, double y4) {

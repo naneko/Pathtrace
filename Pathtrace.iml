@@ -11,5 +11,6 @@
     <orderEntry type="library" name="org.processing:core:3.3.7" level="project" />
     <orderEntry type="library" name="org.apache.logging.log4j:log4j-core:2.13.1" level="project" />
     <orderEntry type="library" name="javax.vecmath:vecmath:1.5.2" level="project" />
+    <orderEntry type="library" name="com.ultramixer.jarbundler:jarbundler-core:3.3.0" level="project" />
   </component>
 </module>
