@@ -4,6 +4,10 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import processing.core.PApplet;
 
+// TODO: Add more boundary shapes
+
+// TODO: Add more abstract methods that are easier to understand and work with
+
 public class Pathtrace extends PApplet {
     public Logger logger = LogManager.getLogger(this.getClass().getName());
 
@@ -13,7 +17,7 @@ public class Pathtrace extends PApplet {
     double angle = 0;
 
     public void settings() {
-        Sketch.sketch = this;
+        Sketch.sketch = this; // TODO: Add initialization method that doesn't require the Sketch object to be referenced directly
         size(640, 640);
 //        fullScreen();
     }
@@ -37,12 +41,16 @@ public class Pathtrace extends PApplet {
         stroke(255, 255, 0);
         path.drawBounds();
         stroke(255);
-        while (iterator.hasNext()) {
+        while (iterator.hasNext()) { // TODO: Make this a method
             iterator.next();
         }
         path.drawPath();
+
+        // TODO: Debug draw methods should clear their own arrays
 //        Sketch.drawDebugVectors();
 //        Sketch.drawCheckLines();
+
+        // TODO: Require debug system to be enabled and assume disabled state
         Sketch.checkLines.clear();
         Sketch.debugVectors.clear();
 
